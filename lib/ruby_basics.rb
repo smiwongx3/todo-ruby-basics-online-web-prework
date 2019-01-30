@@ -14,8 +14,8 @@ def greeting(thing1, thing2)
  "#{thing1}, #{thing2}"
 end
 
-def return_a_value
-
+def return_a_value(phrase ="nice")
+"#{phrase}"
 end
 
 def last_evaluated_value
